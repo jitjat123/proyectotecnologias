@@ -1,0 +1,56 @@
+version: '3.1'
+
+# x-common: &common
+#   build: .
+#   environment:
+#     ENVIRONMENT: "production"
+#     # The following variables are taken directly from shell env variables (Keep them empty)
+#     DJANGO_SECRET_KEY:
+#     DATABASE_URL:
+#     PAYPAL_SECRET_CLIENT:
+#     PAYPAL_ID_CLIENT:
+#     ENVIRONMENT:
+
+
+
+services:
+
+  nginx:
+  image: nginx:latest
+  ports:
+    - "80:80"
+  volumes:
+    - ./static:/static
+    - ./media:/media
+    - ./nginx/project_name.prod.conf:/etc/nginx/conf.d/project_name.conf
+  depends_on:
+    - project_name
+  networks:
+    - webnet
+
+  project_name:
+    build: .
+    image: project_name:latest
+    container_name: project_name
+    environment:
+      PRODUCTION: "True"
+      ENVIRONMENT: ${ENVIRONMENT}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+      DATABASE_URL: ${DATABASE_URL}
+      PAYPAL_SECRET_CLIENT: ${PAYPAL_SECRET_CLIENT}
+      PAYPAL_ID_CLIENT: ${PAYPAL_ID_CLIENT}
+    depends_on:
+      - db
+    volumes:
+      - .:/src
+      - ./scripts:/scripts
+    # Dev user: admin pass: admin
+    command: gunicorn project_name.wsgi -b :8000
+    ports:
+      - "8000:8000"
+
+  # db:
+  #   image: postgres:11
+  #   container_name: project_name-postgres
+  #   environment: 
+  #     POSTGRES_PASSWORD: postgres

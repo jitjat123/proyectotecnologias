@@ -1,0 +1,698 @@
+[
+{
+  "model": "article.category",
+  "pk": 1,
+  "fields": {
+    "name": "Articles",
+    "parent": null,
+    "lft": 1,
+    "rght": 4,
+    "tree_id": 1,
+    "level": 0
+  }
+},
+{
+  "model": "article.category",
+  "pk": 2,
+  "fields": {
+    "name": "Article",
+    "parent": 1,
+    "lft": 2,
+    "rght": 3,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 1,
+  "fields": {
+    "language_code": "en",
+    "name": "Welcome to Interns",
+    "title": "Welcome to Interns",
+    "abstract": "Two interns and one collaborator will join the development team at BYE BYE 404 to enhance our flagship product. The newcomers are students from the Universidad de los Llanos and are expected to start their duties on mid February 2017. During the 16-week period, the students are responsible to contribute with software development tasks and to write an academic paper describing the work done.",
+    "content": "<p>Management team at BYE BYE 404 wishes all the best to the interns.</p>",
+    "notes": "<p>-</p>",
+    "links": "<ul>\r\n\t<li><a href=\"http://www.unillanos.edu.co/\">University of the Llanos</a></li>\r\n\t<li><a href=\"http://byebye404.com/\">BYE BYE 404</a></li>\r\n</ul>",
+    "more_information": "<p>BYE BYE 404 is a web application that detects your broken links. It monitors your websites and reports the broken links found.&nbsp;Furthermore, it suggests how to fix them based on Artificial Intelligence. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<div class=\"field__items\">\r\n<div class=\"field__item\"><a href=\"/news\">News</a></div>\r\n\r\n<div class=\"field__item\"><a href=\"/news/byebye404\">BYE BYE 404</a></div>\r\n</div>",
+    "master": 1
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 2,
+  "fields": {
+    "language_code": "en",
+    "name": "Interns present results at VillaDevs",
+    "title": "Technical validation from practitioners",
+    "abstract": "On June 27, 2017 the group of interns presented their results at VillaDevs. During the event, the interns discussed technical details of the work performed along the 16-week period.",
+    "content": "<p>Participants were enthusiastic about the results presented. &ldquo;<em>BYE BYE 404 is an interesting web application with a huge potential market, in particular in the E-Commerce sector</em>&ldquo;, says event organizer Ing. Iv&aacute;n Casanova.</p>\r\n\r\n<p>VillaDevs is an open forum for the discussion of latest technology development in the Meta and Llanos Orientales Region. It is sponsored in the context of the Vive Digital National Plan by Parquesoft Meta, the Colombian ICT Ministry and Villavicencio Major&rsquo;s Office.</p>",
+    "notes": "<p>-</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.facebook.com/pg/byebye404/photos/?tab=album&amp;album_id=1968854166666948\">More images of the event</a></li>\r\n\t<li><a href=\"https://www.facebook.com/villavicenciojs\">VillaDevs Fan Page</a></li>\r\n\t<li><a href=\"https://www.meetup.com/villadevs/events/241020068/\">VillaDevs Event on Meetup</a></li>\r\n\t<li><a href=\"http://parquesoftmeta.com/\">Parquesoft Meta</a></li>\r\n\t<li><a href=\"http://www.mintic.gov.co/\">Colombian ICT Ministry</a></li>\r\n\t<li><a href=\"https://web.archive.org/web/20170702011209/http://www.mintic.gov.co/portal/vivedigital/612/w3-propertyvalue-6106.html\">Vive Digital National Plan</a></li>\r\n\t<li><a href=\"http://villavicencio.gov.co/\">Villavicencio Major&rsquo;s Office</a></li>\r\n</ul>",
+    "more_information": "<p>BYE BYE 404 is a web application that detects and fix your broken links. It monitors your websites and reports the broken links found.&nbsp;Furthermore, it suggests how to fix them based on advanced techniques. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<div class=\"field__items\">\r\n<div class=\"field__item\"><a href=\"/news\">News</a></div>\r\n\r\n<div class=\"field__item\"><a href=\"/news/byebye404\">BYE BYE 404</a></div>\r\n</div>",
+    "master": 2
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 3,
+  "fields": {
+    "language_code": "en",
+    "name": "Trained First Cohort of Data Analysts",
+    "title": "Boosting BYE BYE 404’s business intelligence capabilities",
+    "abstract": "Between October 25 and November 8 2017 the first cohort of the data analysis team was trainend and certified at the Punto Vive Digital Lab Villavicencio[1]. The objetive of the training sessions was to develop basic understanding of the underlaying web technologies and collaborative tools behing BYE BYE 404.",
+    "content": "<p>&ldquo;<em>Paquesoft Meta is pleased to host training activities that promotes the information technology literacy among the Llanos Orientales community</em>&rdquo; says Camilo Riveros Executive Director of Parquesoft Meta.</p>\r\n\r\n<p>&ldquo;<em>There is an outstanding combination of experience and energy among the trained team. It is impressive how information technology permeates at different stages of life</em>&rdquo; adds Laura Salazar Administrative of the Punto Vive Digital Lab in Villavicencio.</p>\r\n\r\n<p>&ldquo;<em>When I started the training my knowledge about web technologies was limited. Now I expect to contribute with my dedication and effort to the success of BYE BYE 404</em>&rdquo; concludes Rodrigo R&iacute;os participant of the training session.</p>\r\n\r\n<p>At &nbsp;BYE BYE 404 we firmly believe in the digital inclusion. Our data analysis team combines the vibrant youth with the seasoned maturity inteterested in acquiring further knowledge and take part in the current information revolution. From now on, the data analysis team will be exploring the World Wide Web, looking for opportunities to improve different websites. The data analysis team in changing the world one link at a time!</p>",
+    "notes": "<p>[1] Punto Vive Digital Lab Villavicencio is supported by the&nbsp;<a href=\"http://www.mintic.gov.co/\">Ministerio de Tecnolog&iacute;as de la Informaci&oacute;n y Comunicaciones</a>.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.facebook.com/media/set/?set=a.2035399540012410.1073741830.1867859476766418&amp;type=1&amp;l=310df7c7ec\" rel=\"noopener\" target=\"_blank\">Photo album</a></li>\r\n\t<li><a href=\"http://parquesoftmeta.com/\">Parquesoft Meta</a></li>\r\n\t<li><a href=\"http://byebye404.com/\">BYE BYE 404</a></li>\r\n</ul>",
+    "more_information": "<p>BYE BYE 404 is a web application that detects and fix your broken links. It monitors your websites and reports the broken links found. Furthermore, it suggests how to fix them based on advanced techniques. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<div class=\"field__items\">\r\n<div class=\"field__item\"><a href=\"/news\">News</a></div>\r\n\r\n<div class=\"field__item\"><a href=\"/news/byebye404\">BYE BYE 404</a></div>\r\n</div>",
+    "master": 3
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 4,
+  "fields": {
+    "language_code": "en",
+    "name": "Two papers accepted to LACCEI 2018",
+    "title": "Communicating advances in information retrieval to the general public",
+    "abstract": "Two scientific papers by&nbsp;<a href=\"https://byebye404.wordpress.com/2017/01/25/welcome-to-interns/\">students from the University of the Llanos</a>&nbsp;were accepted to the Latin American and Caribbean Conference for Engineering and Technology (<a href=\"http://laccei.org/\">LACCEI</a>). In this year, the conference takes place in Lima, Peru, from July 18 to 20.",
+    "content": "<p>Maximiliano C&aacute;rdenas is the lead author of the paper titled&nbsp;<em>A Scalable End- to-end Web Application to Fix Broken Hyperlinks. &ldquo;It was a very interesting experience. I was able to interact with skilled professionals to solve complex issues using infrastructure as a service.&rdquo;</em>&nbsp;says Maximiliano.</p>\r\n\r\n<p>Emiraldo Lozano is the lead author of the paper titled&nbsp;<em>A Multi-strategy Recommendation Algorithm to Retrieve Broken Hyperlinks. &ldquo;For me it was a challenge. To learn quickly new concepts on machine learning and apply them into a production system was a transforming experience. I highly recommend working on internships in startups.&rdquo;</em>&nbsp;adds Emiraldo.</p>\r\n\r\n<p>Roger Calder&oacute;n, director of the&nbsp;<a href=\"https://www.unillanos.edu.co/index.php/facultades/posgrados?id=206\">Software Engineering specialization program</a>&nbsp;at the University of the Llanos also took part in this investigation.&nbsp;<em>&ldquo;Students from the undergraduate program in computer systems engineering are able to produce international level academic papers and we are very happy to see the results.&rdquo;</em>&nbsp;concludes Roger.</p>\r\n\r\n<p>Previously, Maximiliano and Emiraldo&nbsp;<a href=\"https://byebye404.wordpress.com/2017/07/04/interns-present-results-at-villadevs/\">presented their work at VillaDevs</a>, a technical forum to discuss topics on emerging technologies.</p>",
+    "notes": "<p>-</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.unillanos.edu.co/\">University of the Llanos</a></li>\r\n\t<li><a href=\"http://laccei.org/\">LACCEI</a></li>\r\n\t<li><a href=\"https://www.unillanos.edu.co/index.php/facultades/posgrados?id=206\">Software Engineering specialization program</a></li>\r\n</ul>",
+    "more_information": "<p>BYE BYE 404 is a web application that detects and fix your broken links. It monitors your websites and reports the broken links found. Furthermore, it suggests how to fix them based on advanced techniques. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<div class=\"field__items\">\r\n<div class=\"field__item\"><a href=\"/news\">News</a></div>\r\n\r\n<div class=\"field__item\"><a href=\"/news/byebye404\">BYE BYE 404</a></div>\r\n</div>",
+    "master": 4
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 5,
+  "fields": {
+    "language_code": "en",
+    "name": "BYE BYE 404 presented in Peru",
+    "title": "Academic validation for the business concept",
+    "abstract": "Computer scientists from BYE BYE 404 and the University of the Llanos presented two research papers at the Latin American and Caribbean Conference for Engineering and Technology in Peru.",
+    "content": "<p>From 18 until 20 July 2018, Maximiliano C&aacute;rdenas and Emiraldo Lozano presented two academic papers in the field of software engineering and information retrieval at the 16th LACCEI International Multi-Conference for Engineering, Education, and Technology &ldquo;Innovation in Education and Inclusion&rdquo;. Scientists and practitioners from the entire continent enriched the venue with their presence.</p>\r\n\r\n<p>Adriana P&aacute;ez Pino (<a href=\"http://www.usergioarboleda.edu.co/\">Sergio Arboleda University</a>) and Mar&iacute;a Mercedes Larrondo Petrie (<a href=\"https://www.fau.edu/\">Florida Atlantic University</a>) were the General Conference Chair. Humberto &Aacute;lvarez (<a href=\"http://www.utp.ac.pa/\">Technological University of Panama</a>), Luis Felipe Zapata Rivera (<a href=\"https://www.fau.edu/\">Florida Atlantic University</a>), and Zaida Jova Aguila (<a href=\"https://unisal.br/\">Salesian University Center of Sao Paulo</a>) were the Full Papers-, Work in Progress-, and Student Papers- Chairs respectively.</p>\r\n\r\n<p>&ldquo;<em>It was amazing! I enjoyed to take part in this research project. I learned a lot, practiced with leading technologies, and visited a new country. It was perfect.</em>&rdquo; says Maximiliano C&aacute;rdenas, first author of one of the papers.</p>\r\n\r\n<p>&ldquo;<em>I really recommend this experience to future students. It comprises both technical and soft skills development in a reasonable time. Now I feel comfortable to face technical challenges at international level.</em>&rdquo; adds Emiraldo Lozano, first author of the other paper.</p>\r\n\r\n<p>&ldquo;<em>It is exciting to see how these young men arrive as interns and end up as speakers at international events, we are very proud of their achievements and do our best to keep promoting academic and professional excellence in our teams.</em>&rdquo; summarises Javier Enciso co-author of both studies.</p>\r\n\r\n<p>Finally, academic validation [1] plays an important role in the product development cycle. First, it prevents common mistakes by taking into account the comments from pairs around the globe. Second, it enables to share the latest developments with the community. Certainly, this a win-win situation.</p>",
+    "notes": "<p>[1] Blind review guarantees the academic validation of the work.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"http://wp.eng.fau.edu/laccei2018/\">LACCEI 2018</a></li>\r\n\t<li><a href=\"http://www.laccei.org/index.php/publications/laccei-proceedings\">LACCEI Proceedings</a></li>\r\n\t<li>Research Papers:\r\n\t<ul>\r\n\t\t<li><a href=\"http://www.laccei.org/LACCEI2018-Lima/work_in_progress/WP139.pdf\">A Scalable End-to-end Web Application to Fix Broken Hyperlinks</a></li>\r\n\t\t<li><a href=\"http://dx.doi.org/10.18687/LACCEI2018.1.1.140\">A Multi-strategy Recommendation Algorithm to Retrieve Broken Hyperlinks</a></li>\r\n\t</ul>\r\n\t</li>\r\n</ul>",
+    "more_information": "<p><strong>LACCEI</strong>&nbsp;is a non-profit organization of Latin American and Caribbean (LAC) institutions that offer academic programs in Engineering and Technology as well as institutions (i.e. universities, colleges, schools and businesses) from other parts of the world that have demonstrated interest and activities with LAC institutions.</p>\r\n\r\n<p>The&nbsp;<strong>University of the Llanos</strong>&nbsp;integrally comprises citizens, professionals and scientists with sensitivity and appreciation for the historical, social, cultural and ecological heritage of Humanity, competent and committed to solving problems of the Orinoquia and the country with a universal vision, conserving its nature as a center for the generation, preservation, transmission and dissemination of knowledge and culture.</p>\r\n\r\n<p><strong>BYE BYE 404</strong>&nbsp;is an application that detects and fixes broken hyperlinks. It monitors websites and reports the broken links. Furthermore, it suggests how to fix them based on advanced information retrieval techniques. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<div class=\"field__items\">\r\n<div class=\"field__item\"><a href=\"/news\">News</a></div>\r\n\r\n<div class=\"field__item\"><a href=\"/news/byebye404\">BYE BYE 404</a></div>\r\n</div>",
+    "master": 5
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 6,
+  "fields": {
+    "language_code": "en",
+    "name": "Major Technology Update",
+    "title": "Keeping the pace with the evolving technology ecosystem",
+    "abstract": "BYE BYE 404’s development team deployed a new version of the web application. The new version incorporates cutting-edge software engineering culture and practice that unifies software development and operations, on top of cloud computing services.",
+    "content": "<p>Scalability is a must in the design of contemporary web applications. Skip this principle and web applications will become obsolete and replaced by others, capable to respond to a frequent growing amount of users and work.</p>\r\n\r\n<p>Anticipating a new wave of customers, BYE BYE 404&rsquo;s development team successfully deployed a new version of BYE BYE 404 that takes advantage of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/DevOps\">DevOps</a>&nbsp;[1] culture, virtualization at the operating system level, and cloud computing services to build, test, deploy, and manage the software across the entire product&rsquo;s life cycle.</p>\r\n\r\n<p>&ldquo;<em>Containers are magic units that ease the life of the developers. Add multiple containers and you will end up with a virtual environment. In this way, developers don&rsquo;t worry about differences between local and production environments. By following this approach, one saves a lot of time.</em>&rdquo; says&nbsp;<a href=\"https://www.linkedin.com/in/edisonarango/\">Edison Arango</a>, technical leader.</p>\r\n\r\n<p>&ldquo;<em>Jumping from one major version in a programming language to another &nbsp;is a real challenge, and could be a total disaster. One has to consider the collateral effects to keep the continuity of the operation. Luckily, a comprehensive suite of unit tests reduces the risk.</em>&rdquo; continues&nbsp;<a href=\"https://www.linkedin.com/in/diego-alejandro-asencio-cuellar-81316098/\">Diego Ascencio</a>, developer.</p>\r\n\r\n<p>&ldquo;<em>Microsoft Azure is a cloud computing platform that helps software enterprises to grow in a seamless way. It is a charm to see how well BYE BYE 404 uses Microsoft Azure&rsquo;s cloud services to accomplish its mission.</em>&rdquo; argues&nbsp;<a href=\"https://www.linkedin.com/in/warnovav\">Walter Novoa</a>, Cloud Solutions Architect at Microsoft, who was not involved in the software development.</p>\r\n\r\n<p>New features include:</p>\r\n\r\n<ul>\r\n\t<li>Dynamic Dashboard</li>\r\n\t<li>Support for Website Feeds</li>\r\n\t<li>Redesign of the Broken Links interface</li>\r\n</ul>\r\n\r\n<p>In conclusion, major technology update is a regular practice in software applications that aim to keep growing in the market. Although there are changes in the technology, &nbsp;the most important one is regard to the service commitment of people who supports the process. At this point, we strive to focus our attention in offering the best service to our customers and free the world of broken hyperlinks.</p>",
+    "notes": "<p>[1] DevOps is the contraction of the terms &ldquo;development&rdquo; and &ldquo;operations&rdquo;.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://web.archive.org/web/20180806213258/http://byebye404.com/\">Archived versions of BYE BYE 404</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/DevOps\">DevOps</a></li>\r\n\t<li><a href=\"https://azure.microsoft.com/\">Microsoft Azure</a></li>\r\n</ul>",
+    "more_information": "<ul>\r\n\t<li><strong>BYE BYE 404</strong>&nbsp;is a web application that detects and fixes broken hyperlinks. It monitors websites and reports the broken links. Furthermore, it suggests how to fix them based on advanced information retrieval techniques. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</li>\r\n</ul>",
+    "contacts": "<p>Press Information Office<br />\r\nENCISO SYSTEMS<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<p><a href=\"/news\">News</a></p>\r\n\r\n<p><a href=\"/news/byebye404\">BYE BYE 404</a></p>",
+    "master": 6
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 7,
+  "fields": {
+    "language_code": "en",
+    "name": "Continuous delivery of fixed links",
+    "title": "Deploying new software features in shorter cycles",
+    "abstract": "BYE BYE 404’s software development team has fully integrated the continuous delivery of product’s updates after pushing changes to the code repository. By using this approach, users will profit from shorter development cycles and new features frequently.",
+    "content": "<p>In old days, integrating new features or fixing bugs [1] were challenging tasks not only because of solving the task&nbsp;<em>per se</em>&nbsp;but the new patch integration into the production environment. All those painful days are behind with the arrival of the so-called&nbsp;<a href=\"https://en.wikipedia.org/wiki/Continuous_integration\">continuous integration</a>&nbsp;(CI) and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Continuous_delivery\">continuous delivery</a>&nbsp;(CD) approaches to produce high-quality software in short cycles.</p>\r\n\r\n<p>A&nbsp;<a href=\"https://en.wikipedia.org/wiki/Version_control\">version control system</a>&nbsp;is at the core of a CI/CD supported software development environment. BYE BYE 404 profits from&nbsp;<a href=\"https://git-scm.com/\">git</a>&nbsp;to manage the contributions of a geographically distributed development team. Developers push code to the repository where a software integration manager moderates and approves their patches. Once the patch meets the quality standards, the integration manager triggers the build and test process.</p>\r\n\r\n<p>During the build and test process, the test server creates a new environment from scratch by taking advantage of container technologies. At the end of this step, the server builds a new container registry that will be available for the next process. This container registry will have both the code and required software components, including programming languages, database, web server, among others.</p>\r\n\r\n<p>&ldquo;<em>Developing highly available software applications demands the latest technologies and the best practices from industry. Omit one of them and the result might be uncertain. In discussions with the development team, I certainly see both features in BYE BYE 404&rsquo;s software development process.</em>&rdquo; says&nbsp;<a href=\"https://www.linkedin.com/in/soybackend/\">Jose Alvarez</a>, a Fullstack developer at Digital Factory Colpatria.</p>\r\n\r\n<p>Our user community can expect new exciting features in the following months. Now that BYE BYE 404 supports CI/CD, only imagination sets the limits of what we can do for you!</p>",
+    "notes": "<p>[1] Software bugs are errors present in a computer program. To fix them, software developers need to reproduce them to find their cause and write a piece of code to solve the problem.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Continuous_delivery\">Continuous integration on Wikipedia</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Continuous_delivery\">Continuous delivery on Wikipedia</a></li>\r\n\t<li><a href=\"https://git-scm.com/\">Git</a></li>\r\n\t<li><a href=\"https://www.docker.com/\">Docker</a></li>\r\n</ul>",
+    "more_information": "<p>BYE BYE 404 is a web application that detects and fixes broken links. In addition, it suggests how to fix them based on advanced information retrieval techniques. Each month, BYE BYE 404 keeps millions of pages free of broken links. It is free.&nbsp;<a href=\"http://my.byebye404.com/signup/\">Sign up</a>&nbsp;and make your website a better place!</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<p><a href=\"/news\">News</a></p>\r\n\r\n<p><a href=\"/news/byebye404\">BYE BYE 404</a></p>",
+    "master": 7
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 8,
+  "fields": {
+    "language_code": "en",
+    "name": "Fixing links at astronomical level",
+    "title": "Improving the web content quality of the world’s most productive astronomical observatory",
+    "abstract": "BYE BYE 404 team is committed to improve web content quality of the most prominent astronomical observatory on earth. Everyday, web content analysts and software developers devote their passion and professionalism to ensure the continuous and accurate operation of the broken link tool.",
+    "content": "<p>The&nbsp;<a href=\"https://www.eso.org/\">European Southern Observatory</a>&nbsp;(ESO) develops and operates the most advanced ground-based telescopes in the world. In recent years, ESO has been instrumental in the achievement of scientific breakthroughs, including:&nbsp;<a href=\"https://www.eso.org/public/news/eso1907/\">First Image of a Black Hole</a>,&nbsp;<a href=\"https://www.eso.org/public/news/eso1629/\">Planet Found in Habitable Zone Around Nearest Star</a>,&nbsp;<a href=\"https://www.eso.org/public/news/eso9861/\">Accelerating Universe</a>,&nbsp;<a href=\"http://www.eso.org/public/news/eso1825/\">Stars orbiting the Milky Way black hole</a>, among others. Besides the most advanced telescopes, ESO manages a significant number of high-traffic websites where the public can find general information,&nbsp;<a href=\"https://www.eso.org/public/news/\">press releases</a>,&nbsp;<a href=\"https://www.eso.org/public/announcements/\">announcements</a>&nbsp;and superb&nbsp;<a href=\"https://www.eso.org/public/images/\">image</a>&nbsp;&amp;&nbsp;<a href=\"https://www.eso.org/public/videos/\">video</a>&nbsp;galleries.</p>\r\n\r\n<p>Curating web content is a never ending task. According to computer scientists Gomes and Silva [1], hyperlinks have a half-life of 2 years. In other words, 50% of external hyperlinks [2] will be dead after 2 years. This fact is a significant issue for large website administrators. Leaving uncurated content on the web might result in the loss of institutional credibility.</p>\r\n\r\n<p>BYE BYE 404 is a broken link tool that addresses this problem by successfully combining&nbsp;<a href=\"https://byebye404.wordpress.com/2018/10/19/major-technology-update/\">cutting-edge technologies</a>,&nbsp;<a href=\"https://byebye404.wordpress.com/2019/06/17/continuous-delivery-of-fixed-links/\">a devops culture</a>,&nbsp;<a href=\"https://byebye404.wordpress.com/2018/08/09/bye-bye-404-presented-in-peru/\">advanced information retrieval techniques</a>, and the most passionate team.</p>\r\n\r\n<p>&ldquo;<em>Working at BYE BYE 404 is an opportunity to apply previously acquired knowledge,&nbsp;learn about new topics as well as develop the ability to work together with all team members.</em>&rdquo; explains&nbsp;<a href=\"https://www.linkedin.com/in/pvelasq/\">Paula Velasquez</a>&nbsp;content analyst at BYE BYE 404.</p>\r\n\r\n<p>&ldquo;<em>Working at BYE BYE 404 has allowed me to interact with new tools that enrich my knowledge and lead me to fall more and more in love with software development, I also strengthen my teamwork, communication skills. I like to think that my contributions to this project help its growth.</em>&rdquo; says&nbsp;<a href=\"https://www.linkedin.com/in/cristian-amado-65345b181/\">Cristian Amado</a>&nbsp;fullstack developer at BYE BYE 404.</p>\r\n\r\n<p>&ldquo;<em>We have been using BYE BYE 404 with great success on our various websites. Thanks to its smart capabilities, it saves us precious time and makes the arduous process of fixing broken links manageable and more practical, helping us to maintain the quality of the web content we provide to the general public.</em>&rdquo; indicates&nbsp;<a href=\"https://www.linkedin.com/in/rshida/\">Raquel Shida</a>&nbsp;Head of Web Team at&nbsp;<a href=\"https://www.eso.org/public/outreach/department/\">ESO Department of Communication</a>, in Germany.</p>\r\n\r\n<p>In the era of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Big_data\">big data</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence\">artificial intelligence</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Multi-messenger_astronomy\">multi-messenger astronomy</a>, web administrators can expect two things for sure: a content flood and the link decay due to the ephemeral nature of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Link_rot\">link rot process</a>. The good news is people at BYE BYE 404 thrills to make your website a better place!</p>",
+    "notes": "<p>[1] Gomes, D., &amp; Silva, M. J. (2006, July).&nbsp;<a href=\"https://dl.acm.org/citation.cfm?doid=1145581.1145623\">Modelling information persistence on the web</a>. In&nbsp;<em>Proceedings of the 6th international conference on Web engineering</em>&nbsp;(pp. 193-200). ACM.</p>\r\n\r\n<p>[2] External hyperlinks include links pointing to both external domains and subdomains managed by other authority.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.eso.org/\">European Southern Observatory</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Link_rot\">Broken links on Wikipedia</a></li>\r\n\t<li><a href=\"http://www.byebye404.com/\">BYE BYE 404</a></li>\r\n</ul>",
+    "more_information": "<p>BYE BYE 404 is a web application that detects and fixes broken links. In addition, it suggests how to fix them based on advanced information retrieval techniques. Each month, BYE BYE 404 keeps millions of pages free of broken links.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a><br />\r\nTel: +57 (8) 678 2084</p>",
+    "tags": "<p><a href=\"/news\">News</a></p>\r\n\r\n<p><a href=\"/news/eso\">ESO</a></p>\r\n\r\n<p><a href=\"/news/byebye404\">BYE BYE 404</a></p>",
+    "master": 8
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 9,
+  "fields": {
+    "language_code": "en",
+    "name": "COVID-19 measurements at Enciso Systems",
+    "title": "Staff’s wellbeing is our highest priority",
+    "abstract": "Given the recent developments of the public health crisis, telework is the preferred strategy for collaborators at Enciso Systems.",
+    "content": "<p>In times of crisis, people and health come first. For this reason, telework[1] is the way we decided to mitigate the propagation of the virus.&nbsp;</p>\r\n\r\n<p>During the following months, we will use the information and communication technologies to execute our mission while keeping staff safe at home. This measure not only avoids the spread of the disease but shows how organized the process really is.</p>\r\n\r\n<p>We recall to keep calm at these challenging times. It is in difficult situations where humanity gives their best and this is an excellent opportunity to share our values with our fellow citizens.&nbsp;</p>",
+    "notes": "<p>[1] Telework is a work modality where collaborators do not visit the company facilities.&nbsp;</p>",
+    "links": "<p><a href=\"https://go.gov.co/Covid-19\">Ministry of Health and Social Protection</a></p>",
+    "more_information": "<p>Enciso Systems is an information technology provider focused on preeminent scientific organizations around the globe. Its customer base spans from Europe and North America.</p>",
+    "contacts": "<p>Public Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:pio@encisosystems.com\">pio@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"/news\">News</a></p>",
+    "master": 9
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 10,
+  "fields": {
+    "language_code": "en",
+    "name": "Samuel Medina: What’s like to be a Software Engineer at Enciso Systems?",
+    "title": "Spoiler alert, it is great!",
+    "abstract": "Working at Enciso Systems is a huge opportunity for me and my partners, we are in a team of colleagues with a similar expertise level that creates a great synergy between us.",
+    "content": "<p>We have to be expanding the horizon of our knowledge permanently, both technical knowledge and other skills. We have the opportunity and the need to improve a second language. It is needed to get better in teamwork, it is needed to improve our social skills, working at Enciso Systems is a road to grow as a professional.</p>\r\n\r\n<p>To interact with all the changes of the business, it is necessary to achieve a high English level. It is necessary to send emails, to write articles, to read a lot of documentation (the most updated documentation is written in English), a Software Engineer has to listen and speak and English for all international meetings, it can be a little harsh at the beginning but it is a great way to force you to improve this indispensable skills, and we are not alone, there are weekly reinforcement classes to help us with this task.&nbsp;</p>\r\n\r\n<p>The software engineer&rsquo;s role at Enciso Systems requires having knowledge in some technologies as Drupal, html, CSS, php, Mantis Bug Tracker, Django, docker, git and some others. It is not necessary that you start your path being a master at all these technologies but it is required to have the will and dedication to learn and improve your capabilities. There is the opportunity to learn, but it is up to everyone to take it or just let it go.</p>\r\n\r\n<p>It is common for a person who dedicates his whole life to the computer sciences to have low social skills, working at Enciso Systems is a chance to break out of the shell, force yourself to improve the way you interconnect with other people, you realize that the soft skills are as important as the technical ones.</p>\r\n\r\n<p>As I said before, it has been a great opportunity for me, and I am really thankful for it. I have improved my English skills, I have gotten many technical skills and gotten to know about many technologies that I had no idea that we have in our hands. Our team has to know one another better and better, our strengths, what we may need help with, and how to work better between us to get the maximum results.</p>",
+    "notes": "<p>-</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.linkedin.com/in/carlos-samuel-2408681a4/\">Samuel profile at LinkedIn</a></li>\r\n\t<li><a href=\"https://www.encisosystems.com/jobs\">Jobs at Enciso Systems</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems conceptualizes, designs, performs and provides after-sales services for&nbsp; information and communication technology products; including hardware and software; as well as the physical infrastructure and civil works required for its operation. Its customer base spans from Europe and North America.</p>",
+    "contacts": "<p>Samuel Media<br />\r\nSoftware Engineer<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:cmedina@encisosystems.com\">cmedina@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"/news\">News</a></p>",
+    "master": 10
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 11,
+  "fields": {
+    "language_code": "en",
+    "name": "New Corporate Identity for Enciso Systems",
+    "title": "Honoring our origin and projecting into the future",
+    "abstract": "Corporate Identity defines who we are and where we want to be. Enciso Systems team joined efforts with graphic designers to invigorate our visual identity. In doing so, the goal was to honor our origin and pave the way to a promising future. The result is astounding. The new logo encapsulates the corporate DNA faithfully and provides an energy boost to take our firm to the next level.",
+    "content": "<p style=\"text-align:justify\">Embracing corporate design work can be a daunting effort. There are too many variables and one can easily lose himself in an infinite loop of reviews. Then it is turn for the graphics design team to put the house in order. Through a systematic process, the design team channels the creative flow of ideas from initial concept to final design, always taking into account the feedback from stakeholders.</p>\r\n\r\n<p style=\"text-align:justify\">Enciso Systems logo contains two parts: Symbol and Logotype. The symbol combines the stylized silhouette of Colombia&rsquo;s territory and the angle brackets. The logotype refers to the last name of the co-founder and the keyword &ldquo;systems&rdquo;, which suggest the idea of a comprehensive solution to the most information technology and communication challenges.</p>\r\n\r\n<p style=\"text-align:justify\">Colors have a special meaning too. Blue and Violet logo colors are associated with technology, whatsmore, there is an analogous harmony between them. Also there is a high contrast [1] between the logo colors and white backgrounds, producing a vibrant effect on the observer.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>The new logo captures the essence of our daily work and gives a major role to our country. We are very happy with the result and we&rsquo;ll be looking forward to producing new corporate symbols out of the initial ones.</em>&rdquo; affirms Alejandra Rojas who was involved in the design process. &nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">Enciso Systems team will work on more corporate identity elements. The goal is to create enduring symbols to inspire collaborators and customers, while telling the world about the outstanding capabilities of our people. Stay tuned!</p>",
+    "notes": "<p>[1] According to the&nbsp;<a href=\"https://www.w3.org/TR/WCAG/\">Web Content Accessibility Guideline</a>, contrast levels above 7 are good to guarantee accessibility for users with limited vision.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.encisosystems.com/about/corporate-identity\">Corporate Identity Page</a></li>\r\n\t<li><a href=\"https://www.w3.org/TR/WCAG/\">Web Content Accessibility Guideline</a></li>\r\n\t<li><a href=\"https://www.sessions.edu/color-calculator/\">Color Wheel Calculator</a></li>\r\n\t<li><a href=\"https://contrast-ratio.com/\">Contrast Ratio Calculator</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems is an information technology provider focused on preeminent scientific organizations around the globe. Its customer base spans from Europe and North America.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>",
+    "master": 11
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 12,
+  "fields": {
+    "language_code": "en",
+    "name": "NOIRLab gets a strong and versatile web presence",
+    "title": "Celebrating the local contribution to the global player in astronomy",
+    "abstract": "The NSF’s National Optical-Infrared Astronomy Research Laboratory, NOIRLab for short, presents its new website. Edison Arango led the development team responsible to put online the massive website. Now it is time to update your bookmarks and let's start Discovering Our Universe Together.",
+    "content": "<p style=\"text-align:justify\">1 October 2019 is an important date for earth&rsquo;s optical and infrared astronomy community. On this date,&nbsp;<a href=\"https://www.noirlab.edu/\">NOIRLab</a>&nbsp;had its &ldquo;first light&rdquo; [1] and was born to unite 5 successful astronomical programs: Cerro Tololo Inter-American Observatory, Community Science &amp; Data Center, Gemini Observatory, Kitt Peak National Observatory and Vera C. Rubin Observatory. Each program brings a long and rich history of scientific breakthroughs spanning for nearly three decades, locations in 3 different time zones, and thousands of digital assets, including breathtaking images and videos.</p>\r\n\r\n<p style=\"text-align:justify\">1 October 2019 marks also the beginning of the collaboration between NOIRLab and Enciso Systems. With more than 10 years supporting web operations for astronomical observatories around the world, Enciso Systems [2] joined forces with local companies [3] to develop and migrate a website of astronomical proportions, literally.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>By far, this is the most challenging project I have led in my career as a software developer. We had a complex code base developed over many years that we customized and optimized to meet the functional and nonfunctional requirements of the customer. This is not a trivial task, in fact we have learned over the months that not even seasoned practitioners were in condition to take this project to completion. We are proud of what we have accomplished with our local talent.</em>&rdquo; affirms Edison Arango.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>We dealt with an impressive, and sometimes overwhelming, amount of content during migration. In some cases, the content had a good structure and the migration process was easy. In others, we did our best to reconstruct the content so the result&nbsp;</em><em>overpasses</em><em>&nbsp;our customer&rsquo;s expectations.</em>&rdquo; explains Ingry Romero, Software Engineer at Enciso Systems and responsible for the daily web operations and content migration.</p>\r\n\r\n<p style=\"text-align:justify\">The new NOIRLab website is now public&nbsp;and&nbsp;we expect it will be a great success. A new referent for the world&rsquo;s astronomy is online.</p>",
+    "notes": "<p>[1] First light is the first use of a telescope or a new instrument to take an astronomical image after it has been constructed. We use the expression in figurative language to refer to the beginning of operations of NOIRLab.</p>\r\n\r\n<p>[2] Enciso Systems began operations on 17 January 2020, however Javier Enciso, as independent professional, has provided services to astronomical observatories since 2009.&nbsp;</p>\r\n\r\n<p>[3] Altix and BitPointer are the companies taking part in the NOIRLab-Enciso Systems collaboration.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.noirlab.edu/\">NOIRLab website</a></li>\r\n\t<li><a href=\"http://www.altix.co/\">Altix website</a></li>\r\n\t<li><a href=\"http://www.bitpointer.co/\">BitPointer website</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems is an information technology provider focused on preeminent scientific organizations around the globe. Its customer base spans from Europe, North America and Asia-Pacific.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/noirlab\">NOIRLab</a></p>",
+    "master": 12
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 13,
+  "fields": {
+    "language_code": "en",
+    "name": "Javier Riveros: What is like to be a software development intern at Enciso Systems?",
+    "title": "Challenges and opportunities everywhere!",
+    "abstract": "University education and real world are two completely different things. Although higher education does a good foundational work, it is an internship where you can “connect the dots” and prepare yourself to transition into the working life.",
+    "content": "<p style=\"text-align:justify\">Many of the things you learned at the university are not going to help you because things are completely different outside. The world of software development is a rapidly growing world where you must keep yourself updating to new technologies to try to be on fire. That is a great advantage of internships, because while you are still studying, you can start preparing yourself for the real world and start adjusting to it.</p>\r\n\r\n<p style=\"text-align:justify\">Enciso Systems is a company founded by Javier Enciso to satisfy the demand for professional IT services to clients in Europe and the United States. My partners Jonathan Garzon, Alejandro Vivas, Diego Palacios and I, Javier Riveros, started about four months ago to work at Enciso Systems as software developer interns.</p>\r\n\r\n<p style=\"text-align:justify\">So, being part of Enciso Systems as a software development intern really brings you a new way of thinking about the working world because you start acquiring new skills every day that are going to help you to get a job or a new opportunity once you have finished your career, we also have our English teacher&#39;s support, Alvaro Trujillo, who teaches us twice a week to reinforce our English knowledge.</p>\r\n\r\n<p style=\"text-align:justify\">To be a part of a team like the one we have at Enciso Systems makes work easier because if anyone is stuck or has a problem, any other team member can contribute to solve that problem. There is a good working environment at the company because all the team members know one another, it has helped us to create a better working space where anyone can give his opinion and suggest new ways of working.</p>\r\n\r\n<p style=\"text-align:justify\">At Enciso Systems we are currently working on the migration of&nbsp;<a href=\"https://github.com/djangoplicity/djangoplicity\">Djangoplicity</a>&nbsp;from Python 2 to Python 3.This project is important because it supports the web operations of several scientific organizations around the world. This system has more than ten years of development and hundreds of thousands of lines of code written in Python. Also, we are working along with&nbsp;<a href=\"http://altix.co/\">Altix</a>&nbsp;which is another company with a really good team that has helped us to improve as developers.</p>\r\n\r\n<p style=\"text-align:justify\">Finally, I encourage fellow students to look for opportunities in local IT companies, you can&rsquo;t imagine how you can learn and contribute at the same time, while keeping close contact with your friends.&nbsp;</p>",
+    "notes": "<p>ㅤ</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.encisosystems.com/jobs/job2004\">Permanent Internships at Enciso Systems</a></li>\r\n\t<li><a href=\"https://www.linkedin.com/in/javier-riveros/\">Javier Riveros at LinkedIn</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems is an information technology provider focused on preeminent scientific organizations around the globe. Its customer base spans from Europe and North America.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>",
+    "master": 13
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 14,
+  "fields": {
+    "language_code": "en",
+    "name": "Teen Astronomy Café Notebooks ready for the Cloud",
+    "title": "The popular scientific outreach program widens its scope",
+    "abstract": "Sponsored by NSF’s NOIRLab and open to all high school students, Teen Astronomy Café educational program is a no-cost initiative that aims to elevate achievement and desire to go to college, and inspire students to pursue STEM [1] careers.",
+    "content": "<p style=\"text-align:justify\">The Teen Astronomy Caf&eacute; program offers high school students opportunities to interact with top-level astronomers, try the computer programs they use, and play with actual data from the cosmos. Exoplanets, the birth and death of stars, the structure of the universe, dark matter and gravitational lenses are among the topics covered on the Caf&eacute;s, by means of short lectures and hands-on computer activities designed using&nbsp;<a href=\"https://jupyter.org/\">Jupyter Notebooks</a>.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">The emergency caused by COVID-19 marked a breaking point for the program, as the development of the on-site Caf&eacute;s had to stop and move to virtuality. An Enciso Systems&rsquo; team led by Juan-David Vargas worked hand in hand with project coordinators to create versions of the Teen Astronomy Caf&eacute; Notebooks that can be executed online using tools such as&nbsp;<a href=\"https://colab.research.google.com/\">Google&rsquo;s Colab</a>&nbsp;and&nbsp;<a href=\"https://mybinder.org/\">Binder</a>, enters the e-Teen Astronomy Caf&eacute;s.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">e-Teen Astronomy Caf&eacute; Notebooks, and its auxiliary files, had to be adjusted to be self-contained and work completely online, with minimal user-intervention, ensuring that student experience is not hindered by any possible technical problems. This new phase of the program not only ensures its permanence during confinement times, but also allows the program to widen its scope and reach new potential students in other parts of the country, and the world.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>The Teen Astronomy Caf&eacute;s in Tucson have brought high school students together with undergrads, graduate students and astronomers as role models to pathways toward STEM fields</em>&rdquo; says Connie Walker, a scientist at NOIRLab who specializes in education and public outreach and leads the Teen Astronomy Caf&eacute; program. &ldquo;<em>Students are provided with opportunities to experience science first hand, talking to astronomers and analyzing the same data astronomers do. Thinking about things they never thought possible. Engaging in intellectual challenges. And just maybe, getting inspired to pursue a STEM field. Now with the help of Enciso Systems, we can take the program beyond Tucson.</em>&rdquo;</p>\r\n\r\n<p style=\"text-align:justify\"><em>&ldquo;</em><em>These programs have already had a positive influence on students in the Tucson area. The work that Enciso Systems has done enables us to bring the program to more sites nationally, and even internationally, with the potential to spur students around the world toward STEM careers.</em><em>&rdquo;</em>&nbsp;adds Mark Newhouse, Manager of Arizona Education and Engagement at NOIRLab.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>Being involved in such an interesting project has been quite an adventure to me: having weekly meetings in English (not my mother tongue), where we had to discuss topics that went from the most specific technical issues to wider educational and student-experience related stuff, working with leading technology, and receiving insightful feedback from teachers, students, Connie and Mark, has helped me grow as a computer scientist, and potential teacher and communicator. I look forward to staying involved in the future development of the program</em>&rdquo; concludes Juan-David Vargas, lead developer.</p>\r\n\r\n<p style=\"text-align:justify\">Finally, Enciso Systems expects to replicate similar STEM experiences at the Llanos Orientales region to benefit local communities and expand the horizon of young talented participants. This is an extraordinary opportunity to embrace new challenges and take the youth to higher intellectual levels.&nbsp;</p>",
+    "notes": "<p>[1] STEM stands for Science Technology Engineering and Mathematics.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://github.com/noaodatalab/notebooks-latest/tree/master/06_EPO/e-TeenAstronomyCafe\">e-Teen Astronomy Caf&eacute; Notebooks on GitHub</a></li>\r\n\t<li><a href=\"http://www.teenastronomycafe.org/\">Teen Astronomy Caf&eacute; website</a></li>\r\n\t<li><a href=\"https://noirlab.edu/\">NOIRLab website</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems is an information technology provider focused on preeminent scientific organizations around the globe. Its customer base spans from Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/noirlab\">NOIRLab</a></p>",
+    "master": 14
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 15,
+  "fields": {
+    "language_code": "en",
+    "name": "Djangoplicity in the Spotlight",
+    "title": "Enciso Systems’ Djangoplicity implementation at NOIRLab received Software Industry Award",
+    "abstract": "In the eighth edition of the Ingenio Award, Enciso Systems received first place in the Success Cases - Education category for the implementation of Djangoplicity [1] at <a href=\"https://noirlab.edu/public/announcements/ann20012/?nolang\">NOIRLab</a> [2]. The award recognizes excellence of the technological implementation and its international outlook.",
+    "content": "<p style=\"text-align:justify\">Annually, the Colombian Federation of Software Producers (<a href=\"https://fedesoft.org/\">Fedesoft</a>) exalts the best of the colombian software industry through the&nbsp;<a href=\"https://premiosingenio.org/\">Ingenio Awards</a>. This year, the award included three categories: Products, Best Technological Solution and Success Cases. In addition, the last one included the following sub-categories: Industry, Health, Government, Services, Digital Entrepreneurship and Education.</p>\r\n\r\n<p style=\"text-align:justify\">Late in 2019, NOIRLab and Enciso Systems began the construction of a new website based on Djangoplicity. In addition, they migrated more than three decades of astronomy-related content. Nine months later,&nbsp;<a href=\"https://www.encisosystems.com/news/enciso2004\">the brand-new website went public for the first time</a>. Edison Arango (<a href=\"http://www.altix.co/\">Altix</a>) led the construction team, while Paula Vel&aacute;squez and Ingry Romero supported the migration and parallel operation of the websites. Whatsmore, interns from University of the Llanos assisted both teams.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>It was an amazing experience for the whole team. Once again, our local talent showed technical skills and commitment at the level of international organization. We will continue working with local companies and academia to provide content administration and web development services offshore.</em>&rdquo; says Javier Enciso, Enciso Systems CEO.</p>\r\n\r\n<p style=\"text-align:justify\">In the next year, Enciso Systems plans to launch a number of technology-related courses and&nbsp;<a href=\"https://en.wikipedia.org/wiki/STEAM_fields\">STEAM</a>&nbsp;field [3] activities to expand the available manpower, stay tuned!</p>",
+    "notes": "<p>[1] Djangoplicity is an&nbsp;<a href=\"https://github.com/djangoplicity/djangoplicity\">open source platform</a>&nbsp;that integrates Content Management System, Digital Assets Management System, and Content Delivery Automation.&nbsp;</p>\r\n\r\n<p>[2] NOIRLab is the preeminent US national center for ground-based, nighttime optical and infrared astronomy.</p>\r\n\r\n<p>[3] STEAM means Science, Technology, Engineering, Arts and Mathematics.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://premiosingenio.org/\">Winners Ingenio Awards 2020</a></li>\r\n\t<li><a href=\"https://noirlab.edu/public/announcements/ann20012/\">New Website for NSF&rsquo;s NOIRLab</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems provides content support and software development services to preeminent scientific organizations in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/noirlab\">NOIRLab</a></p>",
+    "master": 15
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 16,
+  "fields": {
+    "language_code": "en",
+    "name": "ESA/Hubble Website above the clouds",
+    "title": "Enciso Systems team upgrades the beloved astronomical website",
+    "abstract": "In a successful collaboration between Altix, the <a href=\"https://www.eso.org/public/\">European Southern Observatory</a>, <a href=\"https://www.unillanos.edu.co/\">University of the Llanos</a> and Enciso Systems; the team performed a major technological upgrade in the system behind the European website for Hubble Space Telescope.",
+    "content": "<p style=\"text-align:justify\">Launched in 1990, the Hubble Space Telescope [1] has become both a science hero and pop culture icon. Through its web pages, the public can find three decades of scientific discoveries, thousands of high quality&nbsp;<a href=\"https://esahubble.org/images/\">images</a>&nbsp;and&nbsp;<a href=\"https://esahubble.org/videos/\">videos</a>, as well as comprehensive&nbsp;<a href=\"https://esahubble.org/newsletters/\">newsletters</a>.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>The ESA Hubble website is key to our ability to maintain Hubble prominently in Europe, to highlight &nbsp;the contribution of the European Space Agency to the Hubble mission, to give visibility to the scientific results from European scientists and engage and connect with the astronomical community and the public. We depend on our website to be reliable, easy to navigate, fast, and aesthetically attractive. That is why the ESA Hubble team hired Enciso Systems to do the work and the results are outstanding!</em>&rdquo; adds&nbsp;<a href=\"https://www.stsci.edu/who-we-are/leadership/antonella-nota\">Antonella Nota</a>, ESA HST Project Scientist.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>The ESA/Hubble outreach consists of many activities so we knew we needed a trusted and capable web development team to support us with this transition for the new website. We couldn&#39;t be more delighted with their work and we look forward to continued work with this talented team in 2021!</em>&rdquo; concludes Bethany Downer, Public Information Officer at ESA/Hubble.</p>\r\n\r\n<p style=\"text-align:justify\">In addition, Enciso Systems will provide content management and web development support from now on. Who knows, this might be the beginning of a virtuous collaboration between the most emblematic telescope ever and Enciso Systems.</p>",
+    "notes": "<p>[1] Hubble Space Telescope is a collaboration between NASA and ESA.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://esahubble.org/\">ESA/Hubble Website</a></li>\r\n\t<li><a href=\"https://www.eso.org/\">European Southern Observatory Website</a></li>\r\n\t<li><a href=\"https://www.esa.int/\">European Space Agency Website</a></li>\r\n\t<li><a href=\"https://www.stsci.edu/\">Space Telescope Science Institute Website</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems provides content support and software development services to preeminent scientific organizations in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/eso\">ESO</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/esa\">ESA</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/stsci\">STScI</a></p>",
+    "master": 16
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 17,
+  "fields": {
+    "language_code": "en",
+    "name": "Productivity to the G power",
+    "title": "Enciso Systems’ productivity suite supercharged by Google technology",
+    "abstract": "To support the high demand of a truly global operation, Enciso Systems’ productivity suite relies now on Google Workspaces technology.",
+    "content": "<p style=\"text-align:justify\">World-class customers require highly available teams and reliable infrastructure. Enciso Systems&rsquo; IT team moved toward the well-known productivity suite:&nbsp;<a href=\"https://workspace.google.com/\">Google Workspaces</a>&nbsp;(formerly known as Google Apps or G-Suite.). With more than 14 years since initial release, the productivity suite [1, 2] will strengthen the web development and content support operations.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>Our productivity will be boosted while we consolidate our digital presence! It is a strategic move that will translate into a better service.</em>&rdquo; says&nbsp;<a href=\"https://www.encisosystems.com/people\">Diego Palacios</a>&nbsp;web developer at Enciso Systems.</p>\r\n\r\n<p style=\"text-align:justify\">Enciso Systems&rsquo; Management takes IT planning seriously. More news will come shortly, keep tuned!</p>",
+    "notes": "<p>[1] Applications: Gmail, Meet, Chat, Calendar, Drive, Docs, Sheets, Slides, Forms, Sites, Currents, Keep, Apps Script, Cloud Search, and Jamboard.&nbsp;</p>\r\n\r\n<p>[2] Security and Management: Admin, Endpoint, Vault, and Work Insights.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Productivity_software\">Productivity Software in Wikipedia</a></li>\r\n</ul>",
+    "more_information": "<p><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;provides content support and&nbsp;<a href=\"https://www.encisosystems.com/services/software-factory\">software development</a>&nbsp;services to&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p>&nbsp;</p>\r\n\r\n<p>News</p>",
+    "master": 17
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 18,
+  "fields": {
+    "language_code": "en",
+    "name": "New Tool to Discover Cosmic Jewels",
+    "title": "Astronomy visualization tool gets an important update",
+    "abstract": "Computer Scientists from&nbsp;Enciso Systems/<a href=\"https://www.bitpointer.co/bp/index.php/es/inicio/\">BitPointer</a>&nbsp;and international partners developed the latest version of <a href=\"https://www.encisosystems.com/products/fitsliberator\">FITS Liberator</a>, a visualization tool that enables graphics experts to produce the most beautiful astronomical images. From now on, the entire astronomy visualization community can use FITS Liberator on 64-bit based operating systems.",
+    "content": "<p style=\"text-align:justify\">An international collaboration between NSF&rsquo;s&nbsp;<a href=\"https://noirlab.edu/public/\">NOIRLab</a>, the Infrared Processing and Analysis Center (<a href=\"https://www.ipac.caltech.edu/\">IPAC Caltech</a>), the European Space Agency (<a href=\"https://www.esa.int/\">ESA</a>), the Space Telescope Science Institute (<a href=\"https://www.stsci.edu/\">STScI</a>) and the Harvard-Smithsonian Center for Astrophysics (<a href=\"https://www.cfa.harvard.edu/\">CfA</a>) ended up with the release of FITS Liberator 4. Thanks to team [1], the astronomy community can enjoy the freely-available software tool to reveal graphical jewels hidden under mountains of raw data.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">FITS Liberator takes raw files in FITS format [2], then through a series of transformations, it produces images in TIF format. Finally, image experts take the TIF images in their favorite image processing tool to combine layers and enhance colors. The result is the<a href=\"https://noirlab.edu/public/images/archive/top100/\">&nbsp;astronomy digital masterpieces</a>&nbsp;we know and love.&nbsp;Also it is an incredible resource for education in astronomy.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>FITS Liberator is a fundamental tool for the development of academic and research activities at undergraduate and graduate levels at our institution</em>&rdquo; explains Professor Mario Higuera director of the&nbsp;<a href=\"http://ciencias.bogota.unal.edu.co/departamentos/observatorio-astronomico-nacional/el-observatorio/\">National Astronomical Observatory</a>&nbsp;at the National University of Colombia.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">FITS Liberator 4 is open source [3], and the software community is welcome to contribute. FITS Liberator repositories include a Command Line Interface (<a href=\"https://gitlab.com/noirlab/fits-liberator-cli\">CLI</a>) and a Graphical User Interface (<a href=\"https://gitlab.com/noirlab/fits-liberator-gui\">GUI</a>).</p>\r\n\r\n<p style=\"text-align:justify\">In addition to the source code, there are plenty of resources for the public to embark in the quest for cosmic treasures [4]. They are out there, don&rsquo;t miss the opportunity to explore our universe.</p>",
+    "notes": "<p>[1] FITS Liberator 4 team: Juan Fajardo (Enciso Systems/BitPointer), David Zambrano Lizarazo (Enciso Systems/BitPointer), Javier Enciso (Enciso Systems), Robert Hurt (IPAC Caltech), Travis Rector (University of Alaska Anchorage/NSF&rsquo;s NOIRLab), Kimberly Kowal Arcand (CfA), Peter Edmonds (CfA), Nancy Wolk (CfA), Joseph Depasquale (STScI), Davide de Martin (NSF&rsquo;s NOIRLab), Mahdi Zamani (NSF&rsquo;s NOIRLab), and Lars Lindberg Christensen (NSF&rsquo;s NOIRLab).</p>\r\n\r\n<p>[2] FITS stands for Flexible Image Transport System, a&nbsp;structured image format developed by the&nbsp;<a href=\"https://iau.org/\">International Astronomical Union</a>&nbsp;in 1981.</p>\r\n\r\n<p>[3] FITS Liberator 4 is distributed under BSD-3 Clause license.</p>\r\n\r\n<p>[4]&nbsp;<a href=\"https://www.youtube.com/channel/UC7euJCbzV6tmBX71zg8W0Yw\">AstroViz YouTube Channel</a>&nbsp;includes several resources for the public.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://youtu.be/IcTopL8kLbg\">Enciso News Video</a></li>\r\n\t<li><a href=\"https://youtu.be/5DczpMykr00?t=265\">Video Navegando por el Cosmo: Lanzamiento FITS Liberator</a>&nbsp;(Spanish)</li>\r\n\t<li><a href=\"https://noirlab.edu/public/announcements/ann21013/\">NOIRLab&rsquo;s FITS Liberator 4 Announcement</a></li>\r\n\t<li><a href=\"https://esahubble.org/announcements/ann2104/\">ESA/Hubble FITS Liberator 4 Announcement</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/FITS_Liberator\">Wikipedia&rsquo;s FITS Liberator article</a></li>\r\n\t<li><a href=\"https://noirlab.edu/public/products/applications/app001/\">Download FITS Liberator</a></li>\r\n\t<li dir=\"ltr\"><a href=\"https://fitsliberator.bitpointer.co/fl4/\">Tour of the FITS Liberator Graphical User Interface</a></li>\r\n</ul>",
+    "more_information": "<h4>BitPonter</h4>\r\n\r\n<p><a href=\"http://www.bitpointer.co/\">BitPointer</a>&nbsp;an IT Consulting company located at Colombia. They develop software solutions, install, configure, maintain and provide support on servers using Unix-like operating systems like GNU/Linux, BSD and others.</p>\r\n\r\n<h4>Enciso Systems</h4>\r\n\r\n<p><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;provides content support and&nbsp;<a href=\"https://www.encisosystems.com/services/software-factory\">software development</a>&nbsp;services to&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>\r\n\r\n<p>Juan Fajardo<br />\r\nCEO<br />\r\nBitPointer<br />\r\nCell: +57 300 610 4615<br />\r\nEmail:&nbsp;<a href=\"https://www.encisosystems.com/news/jfajardo@bitpointer.co\">jfajardo@bitpointer.co</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/noirlab\">NOIRLab</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/stsci\">STScI</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/esa\">ESA</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/cfa\">CfA</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/ipac\">IPAC</a></p>",
+    "master": 18
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 19,
+  "fields": {
+    "language_code": "en",
+    "name": "One-stop place for web enthusiasts",
+    "title": "Enciso Systems introduce its brand-new online shop",
+    "abstract": "Digital transformation is the integration of digital technology to deliver higher value customers. Enciso Systems Shop offers a single contact point where our customers can fulfill their technical requirements and provision services on demand.",
+    "content": "<p style=\"text-align:justify\">Enciso Systems is proud to announce&nbsp;<a href=\"https://www.encisohosting.com/\">Enciso Hosting</a>. Now, you can find high quality digital products, credit card processing, technical assistance 24/7, and more.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">In particular, you can find the following product family [1] in our online shop:</p>\r\n\r\n<ul>\r\n\t<li style=\"text-align: justify;\">Domain Names</li>\r\n\t<li style=\"text-align: justify;\">Web Hosting</li>\r\n\t<li style=\"text-align: justify;\">SSL Certificates</li>\r\n\t<li style=\"text-align: justify;\">Servers</li>\r\n\t<li style=\"text-align: justify;\">Web Security</li>\r\n</ul>\r\n\r\n<p style=\"text-align:justify\">Go to&nbsp;<a href=\"https://www.encisohosting.com/\">www.encisohosting.com</a>, create an account, and start shopping for your digital products. Improving your web presence is one-click away.</p>",
+    "notes": "<p>[1] Each product family includes several plans to match the customer&#39;s needs.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://youtu.be/x2Sn-g3nZAI\">Enciso News Video</a></li>\r\n\t<li><a href=\"https://www.encisohosting.com/\">Enciso Hosting</a></li>\r\n</ul>",
+    "more_information": "<p><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;provides content support and&nbsp;<a href=\"https://www.encisosystems.com/services/software-factory\">software development</a>&nbsp;services to&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p>&nbsp;</p>\r\n\r\n<p>News</p>",
+    "master": 19
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 20,
+  "fields": {
+    "language_code": "en",
+    "name": "Enciso Systems receives funding from Minciencias as part of the post-pandemic economic reactivation program",
+    "title": "Postdoctoral grant in the area of software development based on business processes",
+    "abstract": "Supporting the evolution of digital business processes is the subject of a research project by Enciso Systems, Universidad Nacional de Colombia and Universidad de los Llanos. Through a postdoctoral grant, a team of researchers will enhance the software's capabilities to detect changes in business process models, identify necessary modifications, and help developers update source code. The goal is to bridge the gap between updates to business process models and corporate capabilities to optimize",
+    "content": "<p style=\"text-align:justify\">Business processes are constantly evolving. Companies identify customer expectations, user experiences, and environmental opportunities to gain insight and improve their processes. Unfortunately, there is a gap between the need to update business processes to meet market changes and corporate capabilities to improve the software that supports these processes.</p>\r\n\r\n<p style=\"text-align:justify\">Many companies use work suites called&nbsp;<em>Business Process Management Systems</em>&nbsp;(BPMS). With these systems, business experts and analysts use models to represent, simulate, and implement business processes. Erroneously, these experts often expect that any change in the models will produce a change in the corresponding software. However, many times these model changes do not reach the software. For example, in technologies such as JBoss JBPM, Camunda BPM, and IBM Websphere BPM; there are cases where a change to the model requires manual source code updates.</p>\r\n\r\n<p style=\"text-align:justify\">The research group of Enciso Systems, the National University of Colombia and the University of Los Llanos [1] works together on the BMEu-Trace project. This research project aims to improve the software&#39;s capabilities to detect changes in business process models, identify necessary modifications, and help developers update source code. In particular, the researchers use information about the coincidence between the elements of the model and their respective source code in order to determine the impact of any changes in the processes. At the current stage, the research team is working on the design (and identification) of tools that can maintain these correspondences (also known as traceability links) automatically, which implies an improvement in the maintenance times of the support software, in addition to facilitating the work of software developers.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>The evolution of business processes is key for companies interested in digital transformation. These companies usually implement a continuous cycle where the business processes, after the initial design, are always in constant change, either through improvements or via their redesign. The software that supports these processes cannot be an impediment for this cycle to take place. Our work will help companies streamline their digital transformation processes</em>&rdquo;, says Olga Vega, who leads the research.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>Our work with the universities help us to provide the most advanced technologies to our partners and clients. Collaboration projects like this help us to provide technologies that enable new business strategies.</em>&rdquo;, mentions Javier Enciso, CEO of Enciso Systems.</p>\r\n\r\n<p style=\"text-align:justify\">The most recent research proposal from Enciso Systems, Universidad Nacional de Colombia and Universidad de los Llanos received a grant from&nbsp;<a href=\"https://minciencias.gov.co/\">Minciencias</a>, as part of CFP 891 of 2020 &ldquo;<em>Fortalecimiento de vocaci&oacute;n y formaci&oacute;n en CTeI para reactivaci&oacute;n econ&oacute;mica en el marco de la post-pandemia 2020</em>&rdquo; . This grant will finance the hiring of a doctor in Systems Engineering for a year.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>This grant will help us to accelerate our research. Using this fund, we can build new tools that automatically maintain the correspondences among the elements in the BPM models and the source code that implements these processes. We expect to use that information to analyze the impact of the changes, to provide hints to the developers and to automatically propagate some changes. We will use some on-the-edge technologies and theories to achieve this.</em>&rdquo; concludes Jaime Chavarriaga, one of the researchers in the project.</p>\r\n\r\n<p style=\"text-align:justify\">With this project, participating institutions ratify the benefits of the University-Company-State collaboration. In addition, the participants&#39; commitment to disseminate and apply the investigation results in the productive sector.</p>",
+    "notes": "<p>[1] Researchers behind BMEu-Trace project are&nbsp;<a href=\"https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000869384\">Olga Vega</a>&nbsp;(Universidad de los Llanos/Universidad Nacional de Colombia),&nbsp;<a href=\"http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000099112\">Helga Duarte</a>&nbsp;(Universidad Nacional de Colombia),&nbsp;<a href=\"https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000234184\">Jaime Chavarriaga</a>&nbsp;(Universidad de los Andes) and&nbsp;<a href=\"http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000670111\">Javier Enciso</a>&nbsp;(Enciso Systems/Universidad de los Llanos). Enciso Systems provides administrative and intellectual property support.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://youtu.be/fAXQwO7f37E\">Press Release Video</a></li>\r\n\t<li><a href=\"https://minciencias.gov.co/convocatorias/vocaciones-cientificas-ctei/convocatoria-fortalecimiento-vocaciones-y-formacion-en\">Call for the strengthening of vocations and training in CTeI for economic reactivation in the framework of the 2020 post-pandemic</a></li>\r\n\t<li><a href=\"https://minciencias.gov.co/\">Minciencias website</a></li>\r\n\t<li><a href=\"http://colswe.unal.edu.co/en/\">ColSWE Research Group</a></li>\r\n</ul>",
+    "more_information": "<p><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;provides content support and&nbsp;<a href=\"https://www.encisosystems.com/services/software-factory\">software development</a>&nbsp;services to&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Olga Lucero Vega M&aacute;rquez<br />\r\nSchool of Engineering Professor<br />\r\nUniversidad de los Llanos<br />\r\nDoctoral Student<br />\r\nUniversidad Nacional de Colombia<br />\r\nEmail:&nbsp;<a href=\"mailto:olvegam@unillanos.edu.co\">olvegam@unillanos.edu.co</a></p>\r\n\r\n<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>",
+    "master": 20
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 21,
+  "fields": {
+    "language_code": "en",
+    "name": "Nuestro Universo",
+    "title": "Enciso Systems’ Anthem with Llano flavor",
+    "abstract": "Enciso Systems presents Nuestro Universo, the corporate anthem that takes elements of Llanero folklore and combines them with an impeccable musical production. The project was a collaboration between artists located in Argentina, Guatemala and Colombia. With this first work, it is expected to start a path of musical projects full of emotion and respect for the roots.",
+    "content": "<p style=\"text-align:justify\">An anthem is a musical work that evokes positive feelings in addition to promoting unity. Enciso Systems&#39; corporate anthem is an original musical composition that combines elements of the folklore of the Colombian eastern plains with nuances of pop-rock music. The result is an inspiring and emotional piece of music.</p>\r\n\r\n<p style=\"text-align:justify\">The anthem is titled&nbsp;<a href=\"https://www.encisosystems.com/about/anthem\"><em>Nuestro Universo</em></a>&nbsp;and has two verses and a chorus. The first verse talks about how far we can go when we pursue our dreams and passions. Next, the second verse is a reflection on respecting and honoring our place of origin. Finally, the chorus highlights teamwork and the hope for a better future.</p>\r\n\r\n<p style=\"text-align:justify\">The musical project was coordinated by Juan-David Vargas and had the collaboration of extraordinary musicians located in Argentina, Guatemala and Colombia [1]. The lyrics and original music were in charge of&nbsp;<a href=\"https://www.instagram.com/3tritono/\">Tritono Ensamble</a>&nbsp;[2]. The voices were interpreted by&nbsp;<a href=\"https://www.youtube.com/watch?v=Tl4iJP2XqVo\">Juan-Manuel G&uuml;iza</a>&nbsp;and&nbsp;<a href=\"https://www.instagram.com/dairarobin/\">Daira Robin</a>. The harp was masterfully executed by&nbsp;<a href=\"https://www.youtube.com/channel/UCTtIIh5dXFBdlKmBO5l3CaA\">Juan-Pablo Rodr&iacute;guez</a>.&nbsp;<a href=\"https://www.linkedin.com/in/carlos-ortiz-49b67b212/\">Carlos Ort&iacute;z</a>&nbsp;managed the intellectual property.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>Gathering so much talent in this project is something that fills me with emotion. The production of the anthem has been a process of almost a year in which we have learned a lot and we have had the opportunity to see how the evolution of ideas takes us to places that could previously seem unattainable. Few companies in the market measure up to a project of this type, so I hope it will be the first in a whole line of work for the company.</em>&rdquo; says Juan-David Vargas, coordinator of the musical project.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>One of the things I like the most about this experience is having managed to achieve a sound combination of elements and musical resources typical of folklore and other styles such as pop and rock. On the other hand, I think we managed to put together a team with incredible talent</em>&rdquo; adds David Ram&iacute;rez, music producer.</p>\r\n\r\n<p style=\"text-align:justify\">With this first musical production, we hope to mark the beginning of new and exciting projects of this nature. Our goal is to make the talent of the region visible and show what truly makes us unique.</p>",
+    "notes": "<p>[1] The production team included&nbsp;<a href=\"https://www.instagram.com/soydavidmrg/\">David Ram&iacute;rez</a>&nbsp;(General production, arrangements, guitar and premix),&nbsp;<a href=\"https://www.instagram.com/bochi__/\">Alejandro Vergara</a>&nbsp;(Lyric adaptation, keyboards, mixing and mastering), Juan-Manuel G&uuml;iza (Lyric and vocal adaptation),&nbsp;<a href=\"https://www.instagram.com/danielmartinez66_1/\">Daniel Mart&iacute;nez</a>&nbsp;(Recording engineering ).</p>\r\n\r\n<p>[2] Tritono Ensamble is made up of&nbsp;<a href=\"https://www.instagram.com/sergiosaidmusic/\">Sergio-Andr&eacute;s Said-Eslava</a>&nbsp;(Saxophone), Danilo-Ignacio Bustos (Cuatro),&nbsp;<a href=\"https://www.instagram.com/basscalao/\">Carlos-Alfonso L&oacute;pez-Roa</a>&nbsp;(Bass),&nbsp;<a href=\"https://www.instagram.com/baterollanero/\">Juan-Diego Forero</a>&nbsp;(Drums).</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://youtu.be/RZ-2krreCRA\">Enciso Systems&rsquo; Anthem (Official) on YouTube</a></li>\r\n\t<li><a href=\"https://www.youtube.com/watch?v=FXX8BXF0PO0&amp;ab_channel=EncisoSystems\">Press Release video</a></li>\r\n\t<li><a href=\"https://www.encisosystems.com/about/corporate-identity/anthem\">Enciso Systems&rsquo; Anthem Lyrics -&nbsp;</a><a href=\"https://www.encisosystems.com/about/anthem\"><em>Nuestro Universo</em></a></li>\r\n</ul>",
+    "more_information": "<p><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;provides content support and&nbsp;<a href=\"https://www.encisosystems.com/services/software-factory\">software development</a>&nbsp;services to&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p>&nbsp;</p>\r\n\r\n<p>News</p>",
+    "master": 21
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 22,
+  "fields": {
+    "language_code": "en",
+    "name": "Enciso Systems receives support from the MinTIC and iNNpulsa Colombia",
+    "title": "Nearly a million dollars to support 147 digital ventures",
+    "abstract": "For 12 weeks, Enciso Systems team will work hand in hand with mentors from the <a href=\"https://mintic.gov.co/portal/inicio/\">MinTIC</a> and <a href=\"https://innpulsacolombia.com/\">iNNpulsa Colombia</a> in the consolidation of the business model around the <a href=\"https://www.encisosystems.com/news/enciso2007\">Djangoplicity</a> Content Management System. The goal is to produce a sustainable model that allows increasing the export of services in the region.",
+    "content": "<p style=\"text-align:justify\">The APPS.CO Laboratory Startup call summoned 614 companies in the country. Among the companies summoned, 147 digital ventures receive specialized support that allows them to implement comprehensive growth strategies. The Oriente and Orinoquia region includes 36 companies that will be guided by Suricata Labs [1].</p>\r\n\r\n<p style=\"text-align:justify\">&quot;<em>From the ICT Ministry we remain committed to the economic reactivation of the country and we are convinced that the support that we will offer to the 147 selected digital entrepreneurs will allow them to grow with their digital product and consolidate in the market. I invite you to take on this process with commitment and dedication to successfully complete all the cycles of the call</em>&quot; says Iv&aacute;n Dur&aacute;n, ICT Minister in charge.</p>\r\n\r\n<p style=\"text-align:justify\">&quot;<em>We are very happy to accompany the selected digital companies, we hope that each one of them will overcome their challenges by making the most of each of the spaces and benefits offered by the APPS.CO program of the MinTIC</em>&quot; adds Francisco Noguera, president of iNNpulsa Colombia .</p>\r\n\r\n<p style=\"text-align:justify\">Finally, Enciso Systems team continues to work on the consolidation of its offer of export-type products and services; and hope to involve more professionals and companies in the region in this laudable goal.</p>",
+    "notes": "<p>[1] It is a business development hub that, based on innovation and the use of technology, encourages the generation of new businesses and the growth of companies.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://youtu.be/KvzTceE0BOU\">Press Release video</a></li>\r\n\t<li><a href=\"https://innpulsacolombia.com/apps-co/noticias/show/8.html\">iNNpulsa Colombia Press Release</a></li>\r\n\t<li><a href=\"https://innpulsacolombia.com/apps-co/convocatorias/show/118/t%C3%A9rminos%20y%20documentaci%C3%B3n/VF%20AVISO%20DE%20RESULTADOS%20FASE%201%20-%20CONVOCATORIA%20EMLABS-21(1).pdf\">Lab Startup Beneficiary Results</a></li>\r\n</ul>",
+    "more_information": "<h4 style=\"text-align:justify\">MinTIC</h4>\r\n\r\n<p style=\"text-align:justify\">The Ministry of Information and Communication Technologies is the entity in charge of designing, adopting and promoting policies, plans, programs and projects in the Information and Communication Technologies sector.</p>\r\n\r\n<h4 style=\"text-align:justify\">iNNpulsa Colombia</h4>\r\n\r\n<p style=\"text-align:justify\">It is the entrepreneurship and innovation agency of the National Government, which, together with the Ministry of Commerce, Industry and Tourism, accompanies the acceleration of high-potential ventures and the innovative and financing processes that allow companies in the country to scale to generate more development economic, equity and opportunities for all Colombians.</p>\r\n\r\n<h4 style=\"text-align:justify\">APPS.CO</h4>\r\n\r\n<p style=\"text-align:justify\">It is an accompaniment program for the corporate and technological strengthening of digital enterprises of the MinTIC that this year is executed by iNNpulsa.</p>\r\n\r\n<h4 style=\"text-align:justify\">Enciso Systems</h4>\r\n\r\n<p style=\"text-align:justify\"><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;develops and maintains websites for&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (8) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>",
+    "master": 22
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 23,
+  "fields": {
+    "language_code": "en",
+    "name": "A new Webbsite closer to the public",
+    "title": "Enciso Systems develops and operates the European Space Agency's website for the James Webb Space Telescope",
+    "abstract": "The NASA/ESA/CSA James Webb Space Telescope (JWST) will revolutionize astronomy. To keep the public updated, Djangoplicity is the content management system behind esawebb.org. More web content will be available after the Telescope reaches its final observation place.",
+    "content": "<p style=\"text-align:justify\">The NASA/ESA/CSA James Webb Space Telescope will revolutionize astronomy. Launched on 25 December 2021, this powerful research marvel will provide a deeper view into the early Universe and it will enable astronomers to answer fundamental questions regarding our origin. Once the scientific results will be available, there is an imperative need for a website where the general public finds news, images and videos we love.</p>\r\n\r\n<p style=\"text-align:justify\"><a href=\"https://www.djangoplicity.com/\">Djangoplicity</a>&nbsp;[1] is the content management system behind&nbsp;<a href=\"https://esawebb.org/\">esawebb.org</a>. After a number of iterations with the ESA/Webb international team [2], the newly released website contains the following sections: 3D Model, Mission Overview, Fact Sheet, Nominal Deployment Sequence Video, Timeline, What&rsquo;s New, and Social Media. Diego Palacios led the frontend development, Alejandro Vivas worked on the infrastructure configuration, Alejandro Vergara and David Ramirez composed the music, Juan-David Vargas coordinated the technical team, and Javier Enciso was the executive producer. Also, special acknowledgement to Edison Arango from&nbsp;<a href=\"https://helixsoft.com.co/\">Helix Software</a>&nbsp;for his fantastic insights regarding backend configuration.</p>\r\n\r\n<p style=\"text-align:justify\">&ldquo;<em>For me, space was always a mystery, in the best of ways. A source of knowledge waiting to be discovered, to unravel its mysteries. That is perhaps why science fiction literature fills that space in my life, since I did not dedicate myself to science, I chose the path of music. I am proud to be part of this great project that is JWST. Perhaps my contribution is not great, it is not even scientific, but I am sure it is a bridge between the impressive discoveries to come and the common people. From the moment the idea of creating thematic music for the project came up and I was added to the team, everything has flowed. Composing as a team, conceptualizing and producing the work that they will hear has been a process that I have enjoyed more than anticipated; I feel like this is my opportunity to give back to the universe how great I have received.</em>&rdquo; explains music composer Alejandro Vergara.</p>\r\n\r\n<p style=\"text-align:justify\">More web content will be available after the Telescope reaches its final observation place. Until then, please keep updated by following ESA/Webb on social media.</p>",
+    "notes": "<p>[1] Djangoplicity is an&nbsp;<a href=\"https://github.com/djangoplicity\">open-source</a>,&nbsp;<a href=\"https://www.encisosystems.com/news/enciso2007\">award-winning</a>&nbsp;astronomical content management system based on Python&rsquo;s Django framework.</p>\r\n\r\n<p>[2] ESA/Webb international team includes: Antonella Nota, Bethany Downer, Marco Sirianni, and Nora Luetzgendorf.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"http://www.esawebb.org/\">ESA/Webb website</a></li>\r\n\t<li><a href=\"https://youtu.be/A3EOIZn5aEM\">News Video</a></li>\r\n\t<li><a href=\"https://www.djangoplicity.com/\">Djangoplicity</a></li>\r\n\t<li><a href=\"https://www.facebook.com/media/set?vanity=encisosystems&amp;set=a.634798631308648\">Photos of the introductory event</a></li>\r\n\t<li><a href=\"https://www.youtube.com/watch?v=zmn8RtINWg8\">Video of the introductory event</a>&nbsp;(Spanish)</li>\r\n</ul>",
+    "more_information": "<p><a href=\"https://www.encisosystems.com/about\">Enciso Systems</a>&nbsp;provides content management and&nbsp;<a href=\"https://www.encisosystems.com/services/software-factory\">software development</a>&nbsp;services to&nbsp;<a href=\"https://www.encisosystems.com/customers\">preeminent scientific organizations</a>&nbsp;in Europe, North America, and East Asia.</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (608) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p><a href=\"https://www.encisosystems.com/news\">News</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/esa\">ESA</a></p>\r\n\r\n<p><a href=\"https://www.encisosystems.com/news/stsci\">STScI</a></p>",
+    "master": 23
+  }
+},
+{
+  "model": "article.articletranslation",
+  "pk": 24,
+  "fields": {
+    "language_code": "en",
+    "name": "Livestock Farms meet Automation Software",
+    "title": "A cost-effective cloud solution for cattle raising",
+    "abstract": "Livestock farms produce significant amounts of data, most of the time hand-recorded by operators in the field. In turn, farm owners reprocess handwritten data to match cattle software requirements and keep the system updated. Enciso Systems developed Enciso Ganadero; a cloud tool to help farm owners to record data in the field. Powerful analytics enable farm owners to get insights on-the-fly and improve their productivity. In short, free yourself from monotonous and repetitive tasks.",
+    "content": "<p style=\"text-align:justify\">Livestock farms produce significant amounts of data, most of the time hand-recorded by operators in the field. Processes like livestock input, rotations, services, among others; they generate data that is vital for the correct management of the facility.&nbsp;</p>\r\n\r\n<p style=\"text-align:justify\">In turn, farm owners reprocess handwritten data to match cattle software requirements and keep the system updated. Because of the multiple commitments of the farm owners, this creates the problem of incomplete and out-of-sync data that has to be solved at a later point.</p>\r\n\r\n<p style=\"text-align:justify\">Enciso Systems developed Enciso Ganadero; a cloud-tool [1] to help farm owners to record data in the field. &ldquo;<em>Enciso Ganadero helps us to reduce the time we spend transcribing what operators produce in small notebooks. I expect to recover the investment quickly and have more time for tasks that demand more analysis.</em>&rdquo; says Richard Jimenez, current customer of the livestock solution.</p>\r\n\r\n<p style=\"text-align:justify\">Powerful analytics enable farm owners to get insights on-the-fly and improve their productivity. In addition, the system can be customized to match the specifics of each farm and the websites accessible through the tablets can be controlled.</p>\r\n\r\n<p style=\"text-align:justify\">In short, free yourself from monotonous and repetitive tasks. Let the power of information and communication technologies work for you.</p>",
+    "notes": "<p>[1] Based on Google Infrastructure.</p>",
+    "links": "<ul>\r\n\t<li><a href=\"https://www.encisosystems.com/products/enciso-ganadero\">Enciso Ganadero</a></li>\r\n\t<li><a href=\"https://youtu.be/sfdsX2y-aks\">Enciso News Video</a></li>\r\n</ul>",
+    "more_information": "<p>Enciso Systems develops and operates &nbsp;websites for astronomical observatories around the world and beyond. Enciso Systems customers include: Hubble, Webb, Harvard-CfA, ESA, NOIRLab, ESO, IAU, among others. It is a member of the Colombian Federation of the Software Industry and Related Information Technology (Fedesoft).</p>",
+    "contacts": "<p>Press Information Office<br />\r\nEnciso Systems<br />\r\nTel: + 57 (608) 678 2084<br />\r\nCel: +57 320 880 8381<br />\r\nEmail:&nbsp;<a href=\"mailto:info@encisosystems.com\">info@encisosystems.com</a></p>",
+    "tags": "<p>&nbsp;</p>\r\n\r\n<p>News</p>",
+    "master": 24
+  }
+},
+{
+  "model": "article.article",
+  "pk": 1,
+  "fields": {
+    "category": 2,
+    "image": "article/es1701a.jpg",
+    "date_created": "2022-05-16T20:45:34.891Z",
+    "date_updated": "2022-05-16T20:45:34.891Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "image": "article/es1702a.jpg",
+    "date_created": "2022-05-16T20:49:26.389Z",
+    "date_updated": "2022-05-16T20:49:26.389Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 3,
+  "fields": {
+    "category": 2,
+    "image": "article/es1703a.jpg",
+    "date_created": "2022-05-16T20:51:17.286Z",
+    "date_updated": "2022-05-16T20:51:17.286Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "image": "article/es1801a.png",
+    "date_created": "2022-05-16T20:52:46.716Z",
+    "date_updated": "2022-05-16T20:52:46.716Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "image": "article/es1802a.jpg",
+    "date_created": "2022-05-16T20:54:39.214Z",
+    "date_updated": "2022-05-16T20:54:39.214Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "image": "article/es1803a.png",
+    "date_created": "2022-05-17T22:26:20.674Z",
+    "date_updated": "2022-05-17T22:26:20.674Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 7,
+  "fields": {
+    "category": 2,
+    "image": "article/es1901a.png",
+    "date_created": "2022-05-17T22:32:37.573Z",
+    "date_updated": "2022-05-17T22:32:37.573Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 8,
+  "fields": {
+    "category": 2,
+    "image": "article/es1902a.jpg",
+    "date_created": "2022-05-17T22:34:20.232Z",
+    "date_updated": "2022-05-17T22:34:20.232Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 9,
+  "fields": {
+    "category": 2,
+    "image": "article/es2001a.jpg",
+    "date_created": "2022-05-17T22:36:17.630Z",
+    "date_updated": "2022-05-17T22:36:17.630Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 10,
+  "fields": {
+    "category": 2,
+    "image": "article/_enciso2020a.jpeg",
+    "date_created": "2022-05-17T22:39:30.607Z",
+    "date_updated": "2022-05-17T22:39:30.607Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 11,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2003a.png",
+    "date_created": "2022-06-21T12:33:50.063Z",
+    "date_updated": "2022-06-21T12:33:50.063Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 12,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2004a.jpg",
+    "date_created": "2022-06-21T12:35:40.709Z",
+    "date_updated": "2022-06-21T12:35:49.327Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 13,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2005a.jpg",
+    "date_created": "2022-06-21T12:38:31.751Z",
+    "date_updated": "2022-06-21T12:38:31.751Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 14,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2006a.jpg",
+    "date_created": "2022-06-21T12:40:03.483Z",
+    "date_updated": "2022-06-21T12:40:03.483Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 15,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2007a.png",
+    "date_created": "2022-06-21T12:43:49.776Z",
+    "date_updated": "2022-06-21T12:43:49.776Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 16,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2008a.png",
+    "date_created": "2022-06-21T12:46:07.239Z",
+    "date_updated": "2022-06-21T12:46:07.239Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 17,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2101a.png",
+    "date_created": "2022-06-21T12:47:45.511Z",
+    "date_updated": "2022-06-21T12:47:45.511Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 18,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2102a.jpg",
+    "date_created": "2022-06-21T12:52:21.980Z",
+    "date_updated": "2022-06-21T12:52:21.980Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 19,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2102a.png",
+    "date_created": "2022-06-21T12:55:33.000Z",
+    "date_updated": "2022-06-21T12:55:33.000Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 20,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2104a.png",
+    "date_created": "2022-06-21T12:59:58.496Z",
+    "date_updated": "2022-06-21T12:59:58.496Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 21,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2105a.png",
+    "date_created": "2022-06-21T13:01:58.977Z",
+    "date_updated": "2022-06-21T13:01:58.977Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 22,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2106a.png",
+    "date_created": "2022-06-21T13:04:05.964Z",
+    "date_updated": "2022-06-21T13:04:05.964Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 23,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2107a_KyKmWww.png",
+    "date_created": "2022-06-21T13:06:38.822Z",
+    "date_updated": "2022-06-21T13:06:38.822Z",
+    "active": true
+  }
+},
+{
+  "model": "article.article",
+  "pk": 24,
+  "fields": {
+    "category": 2,
+    "image": "article/enciso2201a.jpg",
+    "date_created": "2022-06-21T13:08:43.420Z",
+    "date_updated": "2022-06-21T13:08:43.420Z",
+    "active": true
+  }
+}
+]
